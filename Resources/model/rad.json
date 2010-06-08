@@ -1,0 +1,10 @@
+{
+		"slides": 
+    [
+        {
+				"id": "slide-one",
+				"classes": "slide",
+				"html": "<div class='container-relative whoops'><img src='img/uni-bro.jpg' id='uni-bro' /><img class='hide' src='img/eich.jpg' id='eich' /><img class='hide' src='img/leroux.jpg' id='leroux' /><img class='hide' src='img/croucher.jpg' id='croucher' /></div>"
+        }
+    ]
+}

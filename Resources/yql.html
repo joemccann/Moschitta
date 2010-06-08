@@ -1,0 +1,90 @@
+<html>
+<head><title>Crockford Facts</title>
+    <style type='text/css'>
+        .container {
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+        }
+
+        #results {
+            margin: 5% auto 10%;
+            overflow: auto;
+            text-align: center;
+            width: 98%;
+            font-size:4.2em;
+        }
+
+        .rad-button {
+            -moz-border-radius: 4px; /* FF1+ */
+            -webkit-border-radius: 4px; /* Saf3+, Chrome */
+            border-radius: 4px; /* Opera 10.5, IE 9 */
+            background: #ddd url('img/bg-btn-grey.png') repeat-x scroll 0 0;
+            background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7b7b7b), to(#fafafa));
+            background-image: -moz-linear-gradient(center bottom, rgb(123, 123, 123) 0%, rgb(250, 250, 250) 100%);
+            border: 1px solid #ddd;
+            color: #0f0f0f;
+            font-size: 2.8em;
+            font-weight: bold;
+            display: block;
+            margin: 0 auto;
+            padding: 15px 80px;
+            text-shadow: 0 -1px 0 #ddd;
+        }
+
+        .rad-button:active, .rad-button:hover, .rad-button:focus {
+            background-image: none;
+        }
+
+        #loading{
+            background:transparent url('img/loading.gif') scroll no-repeat 0 0;
+            display:block;
+            margin:0 auto;
+            height:64px;
+            width:64px;
+        }
+    </style>
+    <script type='text/javascript' src="js/jquery.min.js"></script>
+    <script type='text/javascript'>
+        function yql() {
+            $('#go-yql').hide();
+            $('#loading').show();
+            document.getElementById('results').innerHTML = '';
+            var yql = 'http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20html%20where%20url%3D%22http%3A%2F%2Fcrockfordfacts.com%2F%3Ffoo%3D' + Math.floor(Math.random() * 111) + '%22&format=json'
+
+            $.getJSON(yql, function(data) {
+                facts(data);
+            });
+        }
+
+        function facts(o) {
+            var output = o.query.results.body.div.div.h2;
+            document.getElementById('results').innerHTML = output;
+            $('#loading').hide();
+            $('#go-yql').show();
+
+        }
+
+        $('#go-yql').live('click', function() {
+            yql();
+            $(this).blur();
+            return false;
+        });
+
+        $(function(){
+            $('#loading').hide();
+            yql()
+        });
+
+        window.scrollTo(0,0);
+
+    </script>
+</head>
+<body>
+<div class="container">
+    <div id='results'></div>
+    <div id='loading'></div>
+    <button class='rad-button' id='go-yql'>One Mo'gain</button>
+</div>
+</body>
+</html>

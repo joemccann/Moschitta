@@ -1,0 +1,176 @@
+{
+		"slides": 
+    [
+        {
+				"id": "slide-one",
+				"classes": "slide",
+				"html": "<h1>Who am I?</h1>"
+        },
+        {
+				"id": "slide-two",
+				"classes": "slide",
+				"html": "<div class='left'><img src='img/jsconf-win.jpg' alt='Guess who took the picture.'></img></div><div class='push-top-thirty right'><h3>Senior Technologist at <span class='frog'><br />frog design</span></h3><h3>Principal Consultant at <span class='subprint'><br />subPrint Interactive</span></h3><h3>Founder and Curator of <span class='austinjs'><br />Austin JavaScript</span></h3></div>"
+        },
+         {
+				"id": "slide-three",
+				"classes": "slide",
+				"html": "<h1>WTF is Rapid Prototyping?</h1>"
+        },
+         {
+				"id": "slide-four",
+				"classes": "slide",
+				"html": "<object width='425' height='344'><param name='movie' value='http://www.youtube.com/v/uenIk_eUwyk?fs=1'</param><param name='allowFullScreen' value='true'></param><param name='allowScriptAccess' value='always'></param><embed src='http://www.youtube.com/v/uenIk_eUwyk?fs=1' type='application/x-shockwave-flash' allowfullscreen='true' allowscriptaccess='always' width='425' height='344'></embed></object>"
+        },
+        {
+				"id": "slide-five",
+				"classes": "slide",
+				"html": "<h1>But Joe, WTF does 3-D camera visual installations have to do with JavaScript? Can you get to teh code already?</h1>"
+        },
+        {
+				"id": "slide-six",
+				"classes": "slide",
+				"html": "<h1 class='push-top-oneForty'>Philosophy?</h1>"
+        },
+        {
+				"id": "slide-seven",
+				"classes": "slide",
+				"html": "<div class='left'><img src='img/nietzsche.jpg' alt='Friedrich Nietzsche.'></img><h2 class='clear'>Friedrich Nietzsche</h2></div><div class='push-top-oneForty right'><h3 class='hide'>Look at that 'stache!</h3></div>"
+        },
+        {
+				"id": "slide-eight",
+				"classes": "slide",
+				"html": "<h1 class='push-top-oneForty'>Apollonian and Dionysian States</h1>"
+        },
+        {
+				"id": "slide-nine",
+				"classes": "slide",
+				"html": "<h1>Apollonian State</h1><ul><li>Highly Optimized JavaScript</li><li>Compressed CSS</li><li>Valid Markup</li><li>Page Load Peformant</li></ul>"
+        },
+        {
+        		"id": "slide-ten",
+				"classes": "slide",
+				"html": "<h1>Dionysian State</h1><ul><li>Dream</li><li>Concepts</li><li>Ideas</li><li>Possibly Invalid Code</li><li>Possibly Non-Performant</li><li>Likely Unoptimized</li></ul>"
+        },
+        {
+				"id": "slide-eleven",
+				"classes": "slide",
+				"html": "<h1 class='push-top-oneForty'>Why is Rapid Prototyping Important?</h1>"
+        },
+        {
+				"id": "slide-twelve",
+				"classes": "slide",
+				"html": "<h1>More companies, big and small, are creating or have created &quot;Labs&quot; departments, which is really R&D.</h1>"
+        },
+        {
+				"id": "slide-thirteen",
+				"classes": "slide",
+				"html": "<div class='container-relative'><img src='img/rp-results-gmail.png' id='gmail' /><img src='img/rp-results-google-news.png' id='google-news' /><img src='img/rp-results-orkut.png' id='orkut' /><img src='img/rp-results-adsense.png' id='adsense' /></div>"
+        },
+        {
+				"id": "slide-fourteen",
+				"classes": "slide",
+				"html": "<h1>Ok, I'm Sold! How do I do it?</h1>"
+        },
+        {
+				"id": "slide-fifteen",
+				"classes": "slide",
+				"html": "<img src='img/flash.jpg' /><h2 class='hide'>No, Flash is not Dead.</h2>"
+        },
+        {
+				"id": "slide-sixteen",
+				"classes": "slide",
+				"html": "<h1>JavaScript</h1><h2>(and HTML(5) and CSS(3) too)</h2>"
+        },
+        {
+				"id": "slide-seventeen",
+				"classes": "slide",
+				"html": "<h1>Guess where Webkit is?</h1><div class='container-frame hide'><iframe border='0' width='100%' height='55%' src='http://trac.webkit.org/wiki/Applications%20using%20WebKit'></iframe></div>"
+        },
+        {
+				"id": "slide-eighteen",
+				"classes": "slide",
+				"html": "<h1>Guess where Gecko (Mozilla) is?</h1><div class='container-frame hide'><iframe border='0' width='100%' height='55%' src='http://www.mozilla.org/projects/mozilla-based.html'></iframe></div>"        },
+        {
+				"id": "slide-nineteen",
+				"classes": "slide",
+				"html": "<img src='img/webos.jpg' id='webos' />"
+        },
+        {
+				"id": "slide-twenty",
+				"classes": "slide",
+				"html": "<h1>What's the Point?</h1>"
+        },
+        {
+				"id": "slide-twentyone",
+				"classes": "slide",
+				"html": "<h1>Write code once. Works on loads of devices/platforms.</h1>"
+        },
+        {
+				"id": "slide-twentytwo",
+				"classes": "slide",
+				"html": "<h1>Ok, I'm REALLY Sold This Time! HTF do I do it?!</h1>"
+        },
+        {
+				"id": "slide-twentythree",
+				"classes": "slide",
+				"html": "<h1>TOOLS!</h1><img src='img/tools.jpg' />"
+        },
+        {
+				"id": "slide-twentytfour",
+				"classes": "slide",
+				"html": "<img src='/img/yql.jpg' />"
+        },
+        {
+				"id": "slide-twentyfive",
+				"classes": "slide",
+				"html": "<div id='loading'> </div><div id='results'> </div><button class='rad-button' id='go-yql'>One Mo'gain</button>"
+        },
+        {
+				"id": "slide-twentysix",
+				"classes": "slide",
+				"html": "<img src='img/phonegap.png' /><h1>PhoneGap</h1>"
+        },
+        {
+				"id": "slide-twentyseven",
+				"classes": "slide",
+				"html": "<h1>No Android Device?  Not Running 2.0?</h1>"
+        },
+        {
+				"id": "slide-twentyeight",
+				"classes": "slide",
+				"html": "<h1>Mobile Web App!</h1><h2>http://subprint.com/u/2k</h2>"
+        },
+        {
+				"id": "slide-twentynine",
+				"classes": "slide",
+				"html": "<h1>What about Desktop Apps?</h1>"
+        },
+        {
+				"id": "slide-thirty",
+				"classes": "slide",
+				"html": "<img src='img/appcelerator.jpg' /><h1>Titanium!</h1>"
+        },
+        {
+				"id": "slide-thirtyone",
+				"classes": "slide",
+				"html": "<h1>Demo?</h1>"
+        },
+        {
+				"id": "slide-thirtytwo",
+				"classes": "slide",
+				"html": "<h1>Another Demo?</h1>"
+        },
+        {
+				"id": "slide-thirtythree",
+				"classes": "slide",
+				"html": "<h1>You're Looking at It.</h1>"
+        },
+        {
+				"id": "slide-thirtyfour",
+				"classes": "slide",
+				"html": "<h1>Connect</h1><p><a href='http://twitter.com/joemccann'>@joemccann</a></p><p><a href='http://github.com/joemccann'>github.com/joemccann</a></p><p><a href='http://subprint.com'>subprint.com</a></p>"
+        }
+
+        
+    ]
+}
