@@ -1,3 +1,5 @@
-Moschitta is a Titanium Desktop app created for my talk/presentation at TXJS.  It is the result of 2 days of rapid prototyping and should be considered educational for prototyping purposes only.  Much of the code is repeated by design, because it is a prototype. 
+Moschitta is a Titanium Desktop app created for my talk/presentation at TXJS.  It is the result of 2 days of rapid prototyping and should be considered educational for prototyping purposes only.  Much of the code is repeated (by design) because it is a prototype.
+
+This code may also be hosted on a web server and the presentation can be used directly from the browser.
 
 Use it.
